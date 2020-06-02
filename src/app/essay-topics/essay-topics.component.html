@@ -1,0 +1,22 @@
+
+<body>
+<br>
+ <div class="col-sm-12">
+   
+    <ng-container *ngFor="let e of essays" >
+      <div class="well"  style="height:250px;" >
+	       <h3><span class="badge">{{i}}</span>
+	       <a routerLink="/writing" class="topic">{{e.name}} </a> 
+	       <button class="btn btn-info" style="font-size:10px">Update</button></h3><br><br>
+	       <div class="col-sm-2">Frequency</div>
+	      	<div class="progress">
+	        <div class="progress-bar" style="width:25%;background-color: green">25%</div>
+	        </div>
+	        <div class="col-sm-2">My Note </div>
+	      	<div class="col-sm-10">Rhino 3D. Since its creation in 1998, Rhino 3D has
+                   become one of the most popular tools for architectural design. ...
+                   Revit Architecture. The building information modelling (BIM) 
+                   concept is key in modern architecture. ...</div>
+      </div>
+    </ng-container>	
+

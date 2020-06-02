@@ -1,0 +1,70 @@
+
+
+p, span, a, ul, li, button {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+}
+
+strong {
+	font-weight: 600;
+}
+
+h1, h2, h4, h5, h6 {
+	font-family: display_font_family;
+	line-height: base_line_height;
+	font-weight: 300;	
+}
+
+strong {
+  font-weight: 400;
+}
+
+.tile1 {  
+  width: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+	background: #0080ff;		
+	padding: 20px;
+	margin-bottom: 10px;
+    color:white;
+}
+.tile2 {  
+  width: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+	background: #00bfff;		
+	padding: 20px;
+	color:white;
+	margin-bottom: 10px;
+}
+  .tile3 {  
+  width: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+	background: #ff0080;		
+	padding: 20px;
+	margin-bottom: 10px;
+	color:white;
+}
+  .tile4 {  
+  width: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+	background: #ff00ff;		
+	padding: 20px;
+	margin-bottom: 10px;
+	color:white;
+}
+ .h3
+ {
+    font-family: display_font_family;
+	line-height: base_line_height;
+	font-weight: 300;
+    padding-left:30px;
+ } 
+ .fas
+ {
+ font-size:30px;
+ }

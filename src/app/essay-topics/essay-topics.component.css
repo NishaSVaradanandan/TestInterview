@@ -1,0 +1,11 @@
+.badge
+   {
+    border-radius: 50%;
+  padding: 10px;
+  background-color: green;
+  color: white;
+   }
+   .topic
+   {
+    margin-left: 20px;
+   }
